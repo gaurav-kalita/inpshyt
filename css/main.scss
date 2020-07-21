@@ -170,4 +170,31 @@ header-section{
             }
         }
 }
-  
+//problem page ends
+
+//why councelling page starts
+
+.whyCouncelling{
+    & .background{
+            width: 100%;
+            height: auto;
+            background-image: url("../media/background.jpg") ;
+            background-repeat: repeat;
+            background-size: contain;
+            position: relative;
+            z-index: 1;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right:0;
+                bottom:0;
+                color: $primaryColor;
+                background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(234,240,91,0.8939950980392157) 50%, rgba(236,198,62,1) 100%);
+                z-index:-1;
+                opacity: 0.6;
+                // clip-path: polygon(0 0, 56% 0, 89% 100%, 30% 100%);
+            }
+    }
+}

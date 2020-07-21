@@ -25,7 +25,6 @@ text: {
     value: " “This feeling will pass. The fear is real but the danger is not.”― Cammie McGovern",
     padSpace:true,
 },
-
 ease: "power4",  
 repeat: -1,
 yoyo: true,
