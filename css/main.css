@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../media/bestonlinecounselling.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
+  background: linear-gradient(90deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
+  z-index: -1;
+  opacity: 0.5;
+  -webkit-clip-path: polygon(0 0, 56% 0, 89% 100%, 30% 100%);
+          clip-path: polygon(0 0, 56% 0, 89% 100%, 30% 100%);
+}
+
+.nav-item {
+  -ms-grid-column-align: space-between;
+      justify-self: space-between;
+}
+
+.nav-item a {
+  color: black !important;
+  font-weight: 450;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+header-section {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  position: relative;
+}
+
+header-section .center-div {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translate(0%, 50%);
+          transform: translate(0%, 50%);
+  z-index: 1;
+}
+
+header-section .center-div .btn {
+  background-color: #6c8818 !important;
+  outline: none;
+  border: none;
+}
+
+header-section .center-div .btn:hover {
+  background-color: #829155 !important;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+header-section h6 {
+  margin-bottom: 2vh;
+}
+
+header-section h1 {
+  margin-bottom: 2vh;
+}
+
+header-section p {
+  margin-bottom: 2vh;
+}
+
+.teamInpshyt .background {
+  width: 100%;
+  height: auto;
+  background-image: url("../media/Team-Inphyst.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+}
+
+.teamInpshyt .background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #ecc63e;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
+  background: linear-gradient(90deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.teamInpshyt .background .row {
+  font-size: 20px;
+}
+
+.teamInpshyt .background .row .heading h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.teamInpshyt .background .row .content {
+  font-size: 25px;
+}
+
+.teamInpshyt .row .heading, .teamInpshyt .row .content {
+  width: 100%;
+  height: auto;
+  margin: 100px auto;
+}
+
+.teamInpshyt .row .heading {
+  margin-left: -400px;
+}
+
+.teamInpshyt .row .content {
+  margin-right: -400px;
+}
+
+.problems .background {
+  position: relative;
+}
+
+.problems .background::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #ecc63e;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
+  background: linear-gradient(180deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
+  opacity: 0.6;
+}
+
+.problems .card-group {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.problems .card-group .card {
+  margin: 10px;
+  -webkit-box-shadow: 0px 1px 13px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 1px 13px -2px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=main.css.map */
