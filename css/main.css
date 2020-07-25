@@ -139,6 +139,10 @@ header-section p {
   margin-right: -400px;
 }
 
+.problems {
+  padding-bottom: 0px;
+}
+
 .problems .background {
   position: relative;
 }
@@ -175,9 +179,13 @@ header-section p {
           box-shadow: 0px 1px 13px -2px rgba(0, 0, 0, 0.75);
 }
 
+.whyCouncelling {
+  padding-top: 0;
+}
+
 .whyCouncelling .background {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url("../media/background.jpg");
   background-repeat: repeat;
   background-size: contain;
@@ -193,9 +201,17 @@ header-section p {
   right: 0;
   bottom: 0;
   color: #ecc63e;
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
-  background: linear-gradient(90deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
+  background: linear-gradient(180deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
   z-index: -1;
   opacity: 0.6;
+}
+
+.whyCouncelling .background .content {
+  font-size: 20px;
+}
+
+.whyCouncelling .background .content h2 {
+  font-size: 60px;
 }
 /*# sourceMappingURL=main.css.map */

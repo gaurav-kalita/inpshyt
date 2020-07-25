@@ -125,7 +125,7 @@ header-section{
     & .row .heading, & .row .content{
         width: 100%;
         height: auto;
-        margin: 100px auto;
+        margin: 90px auto;
     }
 
     & .row .heading{
@@ -140,6 +140,7 @@ header-section{
 
 //problems page starts
 .problems {
+    padding-bottom: 0px;
     & .background{
         position: relative;
     &::before{
@@ -175,9 +176,10 @@ header-section{
 //why councelling page starts
 
 .whyCouncelling{
+    padding-top: 0;
     & .background{
             width: 100%;
-            height: auto;
+            height: 100vh;
             background-image: url("../media/background.jpg") ;
             background-repeat: repeat;
             background-size: contain;
@@ -191,10 +193,19 @@ header-section{
                 right:0;
                 bottom:0;
                 color: $primaryColor;
-                background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(234,240,91,0.8939950980392157) 50%, rgba(236,198,62,1) 100%);
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(234,240,91,0.8939950980392157) 50%, rgba(236,198,62,1) 100%);
                 z-index:-1;
                 opacity: 0.6;
-                // clip-path: polygon(0 0, 56% 0, 89% 100%, 30% 100%);
             }
+
+            & .content{
+                font-size: 20px;
+                & h2{
+                    font-size: 60px;
+                }
+            }
+
     }
+
+
 }
