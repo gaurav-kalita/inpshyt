@@ -1,3 +1,5 @@
+@import "./variable";
+
 @media only screen and (max-width: 600px){
 
     header-section{
@@ -9,8 +11,18 @@
 
     .teamInpshyt{
         & .row .content{
-            padding-top: 300px;
+            padding-top: 100px;
         }
+
+        & .row{
+            & .content h6{
+                font-size: 20px;
+                padding-left: 0px;
+                padding-top: 0px;
+                margin-top: -300px; ///have doubt on this 
+                word-spacing: 3px;
+            }
+            }
     }
 
     .problems {
@@ -44,6 +56,5 @@
                     box-shadow: 0px 1px 13px -2px rgba(0,0,0,0.75);
                 }
             }
-    }
-
+    }        
 }

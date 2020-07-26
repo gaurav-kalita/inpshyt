@@ -37,16 +37,39 @@ gsap.to(".teamInpshyt .heading",{
         trigger: ".teamInpshyt",
         toggleActions: "restart pause none pause"
     },
-    x:400,
-    duration:3,
+    x:100,
+    duration:1,
 });
 gsap.to(".teamInpshyt .content",{
     scrollTrigger: {
         trigger: ".teamInpshyt",
         toggleActions: "restart pause none pause"
     },
-    x:-400,
-    duration:3,
+    y:-50,
+    duration:1,
 });
 
+// Parallex Animation 
+
+gsap.to(".parallex-head", {
+    yPercent: -150,
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".parallex-text",
+      // start: "top bottom", // the default values
+      // end: "bottom top",
+      scrub: true
+    }, 
+  });
+  
+  gsap.to(".parallex-text", {
+    yPercent: -50,
+    ease: "none",
+    scrollTrigger: {
+    trigger: ".parallex-text",
+    start: "center 600px", // the default values
+      // end: "bottom top",
+      scrub: true
+    }, 
+  });
 

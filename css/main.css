@@ -118,25 +118,30 @@ header-section p {
 
 .teamInpshyt .background .row .heading h1 {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 90px;
 }
 
-.teamInpshyt .background .row .content {
-  font-size: 25px;
+.teamInpshyt .background .row .content h6 {
+  font-size: 20px;
+  padding-left: 250px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-weight: 200;
+  word-spacing: 7px;
 }
 
 .teamInpshyt .row .heading, .teamInpshyt .row .content {
   width: 100%;
   height: auto;
-  margin: 100px auto;
+  margin: 90px auto;
 }
 
 .teamInpshyt .row .heading {
-  margin-left: -400px;
+  margin-left: -100px;
 }
 
 .teamInpshyt .row .content {
-  margin-right: -400px;
+  margin-right: 0px;
 }
 
 .problems {
@@ -157,7 +162,7 @@ header-section p {
   background-color: #ecc63e;
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
   background: linear-gradient(180deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 .problems .card-group {
@@ -180,15 +185,15 @@ header-section p {
 }
 
 .whyCouncelling {
-  padding-top: 0;
+  margin-top: -10px;
 }
 
 .whyCouncelling .background {
   width: 100%;
-  height: 100vh;
-  background-image: url("../media/background.jpg");
-  background-repeat: repeat;
-  background-size: contain;
+  height: auto;
+  background-image: url("../media/why_councelling.jpg");
+  background-repeat: no-repeat;
+  background-size: stretch;
   position: relative;
   z-index: 1;
 }
@@ -201,17 +206,33 @@ header-section p {
   right: 0;
   bottom: 0;
   color: #ecc63e;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
-  background: linear-gradient(180deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(50%, rgba(234, 240, 91, 0.893995)), to(#ecc63e));
+  background: linear-gradient(90deg, white 0%, rgba(234, 240, 91, 0.893995) 50%, #ecc63e 100%);
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.2;
+  -webkit-clip-path: polygon(69% 0, 100% 0%, 100% 100%, 48% 100%);
+          clip-path: polygon(69% 0, 100% 0%, 100% 100%, 48% 100%);
 }
 
-.whyCouncelling .background .content {
-  font-size: 20px;
+.whyCouncelling .content {
+  padding: 100px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  vertical-align: center;
+  position: relative;
 }
 
-.whyCouncelling .background .content h2 {
-  font-size: 60px;
+.whyCouncelling .content h2 {
+  font-size: 5rem;
+}
+
+.whyCouncelling .content p {
+  font-size: 1.2rem;
+  word-spacing: 2px;
+}
+
+.whyCouncelling .parallex-head {
+  vertical-align: center;
+  padding-top: 50%;
 }
 /*# sourceMappingURL=main.css.map */
